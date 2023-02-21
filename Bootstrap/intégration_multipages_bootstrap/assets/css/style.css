@@ -1,0 +1,64 @@
+/* Style section 1 */
+
+section{
+    width: 100%;
+    margin-top: 80px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+section:first-child div:nth-child(1){
+    background-image: url(../img/s1b1.jpeg);
+}
+
+section:first-child div:nth-child(2){
+    background-image: url(../img/s1b2.jpeg);
+}
+
+section:first-child div:nth-child(3){
+    background-image: url(../img/s1b3.jpeg);
+}
+
+section:first-child div{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .5);
+    padding: 5.5rem;
+    /* margin: 4rem 0 4rem 0; */
+    font-size: 1.8rem;
+    transition: all linear 400ms;
+}
+
+section:first-child div:hover{
+    scale: 1.1;
+}
+
+section:first-child div a{
+    background-color: rgba(0, 0, 0, .8);
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 8px;
+    transition: all linear 400ms;
+}
+
+section:first-child div a:hover{
+    background-color: rgba(255, 255, 255, .8);
+    color: black;
+    font-size: 2rem;
+}
+
+/* Style section 2 */
+
+section:nth-child(2) div img{
+    border: 1px solid rgba(255, 255, 255, .1);
+}
+
+/* Style section 3 */
+
+section:last-child{
+    background-color: black;
+}

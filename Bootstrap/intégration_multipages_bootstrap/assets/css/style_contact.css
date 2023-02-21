@@ -1,0 +1,120 @@
+section{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100%;
+}
+
+/* Style section 1 */
+
+section:first-child div:nth-child(1){
+    background-image: url(../img/s1b3.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 12rem 0;
+}
+
+section:first-child h1{
+    font-size: 10rem;
+    margin-bottom: 6rem;
+}
+
+section:first-child h1, p{
+    text-shadow: 2px 2px 3px black;
+}
+
+/* Style section 2 */
+
+form {
+    background-color: black;
+    padding: 2rem 0;
+}
+
+.mail, .msg, .subject{
+    padding: 2rem;
+}
+
+.mail input{
+    font: 1.5rem "typewriter", sans-serif;
+    font-family: var(--font2);
+    color: white;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.subject input{
+    font: 1.5rem "typewriter", sans-serif;
+    font-family: var(--font2);
+    color: white;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.msg input, textarea{
+    font: 1.5rem "typewriter", sans-serif;
+    font-family: var(--font2);
+    color: white;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.mail input{
+    border-bottom: 1px solid gray;
+}
+
+.subject input{
+    border-bottom: 1px solid gray;
+}
+
+.msg input, textarea{
+    border-bottom: 1px solid gray;
+}
+
+section:nth-child(2) input:focus, textarea:focus{
+    background: rgba(0,0,0,.1);
+    border-radius: 5px;
+    outline: none;
+}
+
+section:nth-child(2) textarea{
+    display : block;
+    padding: 10px;
+    margin: 0 !important;
+    width: 100%;
+    height : 260px;
+    resize : none;
+    overflow: hidden;
+}
+
+.button input{
+    color: white;
+    background-color: #3c3c3c;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    transition: all linear 400ms;
+}
+
+.button input:hover{
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+}
+
+@media (max-width: 576px){
+    h1{
+        font-size: 3.5rem;
+    }
+}

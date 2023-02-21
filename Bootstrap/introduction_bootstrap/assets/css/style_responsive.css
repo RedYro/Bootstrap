@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-danger{
+    color: blue  !important; 
+}
+
+.card{
+    width: 20rem !important;
+}
+
+/* .card img{
+    height: 27.5rem;
+} */

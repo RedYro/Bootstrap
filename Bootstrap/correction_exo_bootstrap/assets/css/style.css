@@ -1,0 +1,22 @@
+:root{
+    --color1: #005259;
+} 
+
+nav {
+    line-height: 80px;
+}
+
+.card-header, .card-footer, .btn{
+    background-color: var(--color1) !important;
+}
+
+h3, h5{
+    color: var(--color1);
+}
+
+.bg{
+    background-image: url(../img/Diana_Corrupted.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
